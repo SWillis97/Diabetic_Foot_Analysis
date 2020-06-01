@@ -1,5 +1,5 @@
 # Diabetic_Foot_Analysis
-This guide provides detailed walkthrough of how to run the standalone programs and the python scripts, if you choose to edit the program.
+This guide provides detailed walkthrough of how to run the standalone programs and the python scripts, if you choose to edit the program. The code and it's functions are explained in `Samuel Willis Final Project Report.pdf`
 
 ## Standalone Package
 It is recommended this be done on a windows computer. There is a script which works with Mac OS but the app package was tempermental, not working on all devices.
@@ -11,9 +11,9 @@ This information is for users who wish to run the python code for further develo
 
 
 ### Scripts
-`Foot_Scanner.py`: The python script contained in the standalone program.
-
-
+- `Foot_Scanner.py`: The python script contained in the standalone program.
+- `Foot_Scanner_with_API.py`: This python script has an API which uploads to a google sheets document. A Google API client secret json will be needed for this.
+- `Polar_Coordinates.py`: This python script contains the functions which complete the polar analysis mentioned in the report.
 ### Libraries
 Please install the following libraries if they have not been installed previously. These libraries are used in all example scripts.
 
