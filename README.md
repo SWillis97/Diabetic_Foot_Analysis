@@ -1,5 +1,5 @@
 # Diabetic_Foot_Analysis
-This guide provides detailed walkthrough of how to run the standalone programs and the python scripts, if you choose to edit the program. The code and it's functions are explained in `Samuel Willis Final Project Report.pdf`
+This guide provides detailed walkthrough of how to run the standalone programs and the python scripts, if you choose to edit the program. The code, it's purpose and it's functions are explained in `Samuel Willis Final Project Report.pdf`
 
 ## Standalone Package
 It is recommended this be done on a windows computer. There is a script which works with Mac OS but the app package was tempermental, not working on all devices.
@@ -23,38 +23,19 @@ Please install the following libraries if they have not been installed previousl
 - Shutil: `pip install pytest-shutil`
 - math: `pip install maths`
 
+If you wish to run `Bresenhams.py` you will also need to install the Bresenhams library: `pip install bresenham`
+
+If you wish to run `Foot_Scanner_with_API.py` or `Polar_Coordinates.py` you will also need to install the following libraries:
+
+- pygsheets: `pip install pygsheets`
+- matplotlib: `pip install matplotlib`
+- Sklearn: `pip install sklearn`
+- argparse: `pip install argparse`
+- gspread: `pip install gspread`
+- google auth: `pip install --upgrade google-auth`
+- googleapiclient: Follow instructions on https://pypi.org/project/google-api-python-client/
+
+## Outputs
+After running the Python code or standalone program a new folder will be made containing images of the process at different stages and two csv files which can be imported into CAD packages to make 3D models. Fusion360 supports this well with the inbuilt csv2spline script.
 
 
-### Outputs
-After running the Python code, the following files should be created:
-
-`WT_Pout.csv` Contains power output of all wind turbine models at all time stamps of the wind speed data of the whole year. Very large dataset.
-
-`price.csv` Contains wind turbine models specifications and the arbitrary prices. 
-
-## Matlab Code
-### Libraries
-Go to Add-Ons and install Global Optimization Toolbox
-
-### Input Datasets
-`WT_Pout.csv` `oneYearPower.csv` and `price.csv` Place these three files into the same directory as the MATLAB files. 
-
-### Functions
-`Demo.m`: Generate a wind turbine farm for an area of 2 km by 2 km with electricity load profile from `oneYearPower.csv`.
-
-`turb_selection.m`: Uses Linear Programming to select the turbine models and the number of them for a build area and a load requirement profile. 
-
-`turb_placement.m`: Uses Pattern Search to place the selected turbine models into the given build area to maximise the power output of the wind turbine farm.
-
-### Outputs
-Running `Demo.m` will generate the following outputs:
-
-_Model_Name_: names of the selected turbine models.
-
-_Numbers_: the number of each selected turbine models. 
-
-_Installation_Cost_: the cost of purchasing the selected turbine models. 
-
-_Final_Power_Output_: a one-year power output from the selected turbine models.
-
-_Turbine_Locations_: the locations of each selected turbine model in the given build area
