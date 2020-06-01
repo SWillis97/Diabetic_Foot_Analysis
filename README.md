@@ -1,5 +1,5 @@
 # Diabetic_Foot_Analysis
-This guide provides detailed walkthrough of how to run the standalone programs and the python scripts, if you choose to edit the program. The code, it's purpose and it's functions are explained in `Samuel Willis Final Project Report.pdf`
+This guide provides detailed walkthrough of how to run the standalone programs and the python scripts, if you choose to edit the program. The code, it's purpose and it's functions are explained in `Samuel Willis Final Project Report.pdf`. A video demonstrating the program can be found at https://youtu.be/81_xTH1K_os.
 
 ## Standalone Package
 It is recommended this be done on a windows computer. There is a script which works with Mac OS but the app package was tempermental, not working on all devices.
