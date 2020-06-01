@@ -9,16 +9,21 @@ To run the standalone package download `standalone.zip`. Unzip it into a locatio
 ## Python Code
 This information is for users who wish to run the python code for further development
 
-### Libraries
-Please install the following libraries if they have not been installed previously.
-
-Numpy: `pip install numpy`
-Pandas: `pip install pandas`
-Matplotlib: `pip install matplotlib`
-Windpowerlib: `pip install windpowerlib`
 
 ### Scripts
-`Wind Turbine Power Output Generation.ipynb`: Computes the yearly power output of 166 wind turbine models based on the wind speed profile data and the arbitrary price of the wind turbine models.
+`Foot_Scanner.py`: The python script contained in the standalone program.
+
+
+### Libraries
+Please install the following libraries if they have not been installed previously. These libraries are used in all example scripts.
+
+-Numpy: `pip install numpy`
+-OpenCV: `pip install opencv-contrib-python`
+-Pillow: `pip install pillow`
+-Shutil: `pip install pytest-shutil`
+-math: `pip install maths`
+
+
 
 ### Outputs
 After running the Python code, the following files should be created:
