@@ -4,7 +4,7 @@ This guide provides detailed walkthrough of how to run the standalone programs a
 ## Standalone Package
 It is recommended this be done on a windows computer. There is a script which works with Mac OS but the app package was tempermental, not working on all devices.
 
-To run the standalone package download `Windows_Standalone.zip` from ; the file was too large to upload to github but can be found on google drive. Unzip it into a location and double click the executable file to process the test images. 
+To run the standalone package download `Windows_Standalone.zip` from https://drive.google.com/file/d/1Va5EHuX0uSfJVQX0_1vBerb9DdL2RL9a/view?usp=sharing; the file was too large to upload to github but can be found on google drive. Unzip it into a location and double click the executable file to process the test images. 
 
 ## Python Code
 This information is for users who wish to run the python code for further development
