@@ -17,11 +17,11 @@ This information is for users who wish to run the python code for further develo
 ### Libraries
 Please install the following libraries if they have not been installed previously. These libraries are used in all example scripts.
 
--Numpy: `pip install numpy`
--OpenCV: `pip install opencv-contrib-python`
--Pillow: `pip install pillow`
--Shutil: `pip install pytest-shutil`
--math: `pip install maths`
+- Numpy: `pip install numpy`
+- OpenCV: `pip install opencv-contrib-python`
+- Pillow: `pip install pillow`
+- Shutil: `pip install pytest-shutil`
+- math: `pip install maths`
 
 
 
