@@ -13,7 +13,9 @@ This information is for users who wish to run the python code for further develo
 ### Scripts
 - `Foot_Scanner.py`: The python script contained in the standalone program.
 - `Foot_Scanner_with_API.py`: This python script has an API which uploads to a google sheets document. A Google API client secret json will be needed for this.
-- `Polar_Coordinates.py`: This python script contains the functions which complete the polar analysis mentioned in the report.
+- `Polar_Coordinates.py`: This python script contains the functions which complete the polar analysis mentioned in the report. It can use any of the example images but was most extensively tested with `Example Foot One.jog`
+- `Bresenhams.py`: This script is used with `Bresenhams_Test.jpg` to demonstrate the closing effect.
+
 ### Libraries
 Please install the following libraries if they have not been installed previously. These libraries are used in all example scripts.
 
